@@ -1,0 +1,25 @@
+{
+  "archive_name": "prod-db-nightly",
+  "created_utc": "2026-04-19T02:00:00+00:00",
+  "notes": "Nightly PostgreSQL dump for the billing database.",
+  "entries": [
+    {
+      "path": "billing/dump.sql",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "required": true
+    },
+    {
+      "path": "billing/schema.sql",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "required": true
+    },
+    {
+      "path": "billing/README.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "required": false
+    }
+  ]
+}
